@@ -30,16 +30,8 @@ public class Controller {
 		
 	}
 	
-	@PutMapping("UpdateData")
-	public static void updateHospitaldata(int id) {
-		System.err.println(1);
-	}
 	
-	@DeleteMapping("deletedata/{id}")
-	public static void deleteHospital(@RequestBody int id) {
-		deleteHospital(id);
-		
-	}
+	
 	
 	
 
